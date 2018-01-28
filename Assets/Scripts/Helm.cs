@@ -6,7 +6,11 @@ using UnityEngine.UI;
 public class Helm:MonoBehaviour
 {
     public int nearZero;
+
     public int wheelNearZero;
+    //Adjust the sensitivity of the wheel
+    public float wheelSensitivity;
+
     //How close Federico needs to be to sucessfully drop mail
     public int pigeonDropDistance;
 
@@ -60,7 +64,7 @@ public class Helm:MonoBehaviour
     {
         Vector3 currMousePos = Input.mousePosition;
 
-        float angle = Vector2.Angle(initialMousePos-image.transform.position, currMousePos-image.transform.position);
+        float angle = wheelSensitivity * Vector2.Angle(initialMousePos-image.transform.position, currMousePos-image.transform.position);
 
         Vector3 rotationVec;
 

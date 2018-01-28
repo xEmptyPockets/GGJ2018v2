@@ -5,9 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class ClickToStart : MonoBehaviour
 {
+    private SfxPlayer sfx;
 
-	public void StartGame()
+    void Awake()
     {
+        GameObject sfxObj = GameObject.Find("SfxPlayer");
+        sfx = sfxObj.GetComponent<SfxPlayer>();
+    }
+
+    public void StartGame()
+    {
+        sfx.PlaySoundEffect("bubbly waddle loop");
         SceneManager.LoadScene("MasterScene");
     }
 }

@@ -602,9 +602,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25bb43d8f761ea49bb071fc3d1dd331, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 1
+  waitTime: 0.3
   spr1: {fileID: 21300000, guid: ad7d181def8595744b81849bc3501133, type: 3}
   spr2: {fileID: 21300000, guid: f7ea09853f163444fa72f9f916cb4b36, type: 3}
+  spr3: {fileID: 21300000, guid: 01e05a6d95438fa4ba0ff3a9a6c070c4, type: 3}
 --- !u!114 &1854720787
 MonoBehaviour:
   m_ObjectHideFlags: 0

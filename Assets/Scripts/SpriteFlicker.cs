@@ -9,6 +9,7 @@ public class SpriteFlicker : MonoBehaviour
 
     public Sprite spr1;
     public Sprite spr2;
+    public Sprite spr3;
 
     private Image img;
     private IEnumerator coroutine;
@@ -28,14 +29,26 @@ public class SpriteFlicker : MonoBehaviour
 
     private IEnumerator Flicker(float waitTime)
     {
-        while (true)
-        {
-            img.sprite = spr1;
-            //sfx.PlaySoundEffect("high repeating beap");
-            yield return new WaitForSeconds(waitTime);
-            img.sprite = spr2;
-            //sfx.PlaySoundEffect("high repeating beap");
-            yield return new WaitForSeconds(waitTime);
-        }
+        img.sprite = spr1;
+        //sfx.PlaySoundEffect("high repeating beap");
+        yield return new WaitForSeconds(waitTime);
+        img.sprite = spr2;
+        //sfx.PlaySoundEffect("high repeating beap");
+        yield return new WaitForSeconds(waitTime);
+        img.sprite = spr1;
+        //sfx.PlaySoundEffect("high repeating beap");
+        yield return new WaitForSeconds(waitTime);
+        img.sprite = spr2;
+        //sfx.PlaySoundEffect("high repeating beap");
+        yield return new WaitForSeconds(waitTime);
+        img.sprite = spr1;
+        //sfx.PlaySoundEffect("high repeating beap");
+        yield return new WaitForSeconds(waitTime);
+        img.sprite = spr2;
+        //sfx.PlaySoundEffect("high repeating beap");
+        yield return new WaitForSeconds(waitTime);
+        img.sprite = spr3;
+        //sfx.PlaySoundEffect("Explosion");
+        yield return new WaitForSeconds(waitTime);
     }
 }

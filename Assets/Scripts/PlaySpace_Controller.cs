@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlaySpace_Controller : MonoBehaviour {
-    int round_num = -1;
+    public int round_num = -1;
 
     public int asteroids_per_round_coefficient = 25;
     public float asteroid_min_size_coefficient = 0.5f;
@@ -13,8 +14,11 @@ public class PlaySpace_Controller : MonoBehaviour {
     public GameObject asteroid;
     public GameObject destination;
 
+    public Text roundText;
+
 	// Use this for initialization
 	void Awake () {
+        roundText = GameObject.Find("roundText").GetComponent<Text>();
         Next_Round();
     }
 	
@@ -25,6 +29,7 @@ public class PlaySpace_Controller : MonoBehaviour {
     public void Next_Round(){
         //Increments the round number, then calls the destination generator, then calls the asteroid generator
         round_num++;
+        roundText.text = round_num.ToString();
         Generate_Destination();
         Generate_Asteroids();
     }

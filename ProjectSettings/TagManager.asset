@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Destination
   - Asteroid
+  - PlaySpace
   layers:
   - Default
   - TransparentFX

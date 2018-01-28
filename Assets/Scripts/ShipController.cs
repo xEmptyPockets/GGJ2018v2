@@ -44,13 +44,16 @@ public class ShipController : MonoBehaviour {
 
     private void Awake()
     {
+        //Debug.Log(gameObject.GetComponent<SpriteRenderer>().sprite.name);
         anim = GetComponent<Animator>();
+       // Debug.Log(gameObject.GetComponent<SpriteRenderer>().sprite.name);
     }
 
     void Start ()
     {
         rb = GetComponent<Rigidbody2D>();
         shipTransform = this.transform;
+        //Debug.Log("shipTransform added: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
 
         /*
         statScrOverlayEBrake = GameObject.Find("StatScrOverlayEBrake");
@@ -77,8 +80,9 @@ public class ShipController : MonoBehaviour {
     void FixedUpdate()
     {
         rb.AddForce(transform.up * thrust * throttle);
-
+        Debug.Log("About to set animation bool: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
         anim.SetBool("Flappin", !(throttle == 0));
+        Debug.Log("animation bool set: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
     }
 
     void Update ()

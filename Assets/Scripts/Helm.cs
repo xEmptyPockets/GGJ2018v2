@@ -15,14 +15,14 @@ public class Helm:MonoBehaviour
 
     public void Awake()
     {
-        ship = GameObject.Find("Ship");
-        speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
-        helm = GameObject.Find("HelmPanel");
+        ship = GameObject.Find("Federico");
+        //speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
+        //helm = GameObject.Find("HelmPanel");
     }
 
     public void Start()
     {
-        helm.SetActive(false);
+        //helm.SetActive(false);
     }
 
     public void SetThrottle(Slider slider)
@@ -84,6 +84,6 @@ public class Helm:MonoBehaviour
 
     public void SetSpeedometer(int speed)
     {
-        speedometer.text = speed.ToString("000");
+        //speedometer.text = speed.ToString("000");
     }
 }

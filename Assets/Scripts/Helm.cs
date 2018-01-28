@@ -7,15 +7,19 @@ public class Helm:MonoBehaviour
 {
     public int nearZero;
     public int wheelNearZero;
+    //How close Federico needs to be to sucessfully drop mail
+    public int pigeonDropDistance;
 
     public GameObject ship;
     private Vector3 initialMousePos;
     private Text speedometer;
     private GameObject helm;
+    private GameObject destination;
 
     public void Awake()
     {
         ship = GameObject.Find("Federico");
+        destination = GameObject.Find("Destination");
         //speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
         //helm = GameObject.Find("HelmPanel");
     }
@@ -85,5 +89,17 @@ public class Helm:MonoBehaviour
     public void SetSpeedometer(int speed)
     {
         //speedometer.text = speed.ToString("000");
+    }
+
+    public void PigeonDrop()
+    {
+        if((ship.transform.position - destination.transform.position).magnitude < pigeonDropDistance)
+        {
+            Debug.Log("Mail Delivered!");
+        }
+        else
+        {
+            Debug.Log("Missed." + ship.transform.position + " " + destination.transform.position);
+        }
     }
 }

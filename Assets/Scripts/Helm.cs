@@ -21,10 +21,13 @@ public class Helm:MonoBehaviour
     private GameObject destination;
     private GameObject playspace;
 
+    private SfxPlayer sPlayer;
+
     public void Awake()
     {
         ship = GameObject.Find("Federico");
         playspace = GameObject.FindWithTag("PlaySpace");
+        sPlayer = GameObject.Find("SfxPlayer").GetComponent<SfxPlayer>();
         //speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
         //helm = GameObject.Find("HelmPanel");
     }
@@ -101,6 +104,7 @@ public class Helm:MonoBehaviour
         destination = GameObject.FindWithTag("Destination");
         if ((ship.transform.position - destination.transform.position).magnitude < pigeonDropDistance)
         {
+            sPlayer.PlaySoundEffect("mail drop");
             //Untag the current planet so that when the new planet spawns, we point to it instead
             destination.tag = "Untagged";
 

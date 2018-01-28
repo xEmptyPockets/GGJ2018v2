@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System;
 
 public class ShipController : MonoBehaviour {
 
@@ -12,6 +14,9 @@ public class ShipController : MonoBehaviour {
     public float shieldAbsorb;
 
     public Animator anim;
+
+    public AudioSource throttleLoop;
+    public bool islooping = false;
 
     // Whether or not these stations are currently disabled
     /*
@@ -53,6 +58,8 @@ public class ShipController : MonoBehaviour {
         sfx = sfxObj.GetComponent<SfxPlayer>();
         Debug.Log("SFX: " + sfx);
 
+        throttleLoop = GetComponent<AudioSource>();
+
        // Debug.Log(gameObject.GetComponent<SpriteRenderer>().sprite.name);
     }
 
@@ -90,6 +97,18 @@ public class ShipController : MonoBehaviour {
         //Debug.Log("About to set animation bool: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
         anim.SetBool("Flappin", !(throttle == 0));
         //Debug.Log("animation bool set: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
+
+        if(throttle != 0 && !islooping)
+        {
+            islooping = true;
+            throttleLoop.Play();
+        }
+        else if (throttle == 0)
+        {
+            islooping = false;
+            throttleLoop.Stop();
+        }
+        throttleLoop.pitch = Math.Abs(throttle) + 1;
     }
 
     void Update ()
@@ -110,29 +129,27 @@ public class ShipController : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.collider.CompareTag("asteroid"))
-        {
-            damage(collision.rigidbody.mass);
-        }
+        damage();
     }
 
-    void damage(float damage)
+    void damage()
     {
+        Debug.Log("Ded");
         sfx.PlaySoundEffect("Explosion");
-
-        if (shieldActive)
-        {
-            hull -= (damage - shieldAbsorb);
-        }
-        else
-        {
-            hull -= damage;
-        }
-        if(hull <= 0)
-        {
-            //Debug.Log("Ded");
-            // Some game over stuff
-        }
+        StartCoroutine("Die");
+        //if (shieldActive)
+        //{
+        //    hull -= (damage - shieldAbsorb);
+        //}
+        //else
+        //{
+        //    hull -= damage;
+        //}
+        //if(hull <= 0)
+        //{
+        //    //Debug.Log("Ded");
+        //    // Some game over stuff
+        //}
 
         /*
         //Damages random system based on randomNum
@@ -167,6 +184,15 @@ public class ShipController : MonoBehaviour {
                 break;
         }
         */
+    }
+
+    IEnumerator Die()
+    {
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        Debug.Log("Ver ded");
+        yield return new WaitForSeconds(2f);
+        Application.LoadLevel(0);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().ToString());
     }
 
     IEnumerator eBrake()

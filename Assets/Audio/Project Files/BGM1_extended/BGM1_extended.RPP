@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.70/x64" 1517176599
+<REAPER_PROJECT 0.1 "5.70/x64" 1517179952
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,13 +14,13 @@
   TIMEMODE 1 5 -1 30 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
-  ZOOM 9.13579078846986 0 0
+  CURSOR 285.64705882352939
+  ZOOM 21.23046021666688 5638 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -28,7 +28,7 @@
   >
   <APPLYFX_CFG
   >
-  RENDER_FILE "Z:\home\vincent\Music\MyMPTModules\MP3\vince_kaichan_-_pigeon_postal_bgm.mp3"
+  RENDER_FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\main menu loop.ogg"
   RENDER_FMT 0 2 44100
   RENDER_1X 0
   RENDER_RANGE 2 0 0 16 1000
@@ -43,7 +43,7 @@
   TAKELANE 1
   SAMPLERATE 44100 0 0
   <RENDER_CFG
-    bDNwbUABAAABAAAABQAAAP////8EAAAAQAEAAAAAAAA=
+    dmdnbwAAgD8AgAAAAIAAAAAgAAAAAAEAAA==
   >
   LOCK 1
   <METRONOME 6 2
@@ -56,8 +56,8 @@
   GLOBAL_AUTO -1
   TEMPO 255 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 128.94117647058823 0
-  SELECTION2 128.94117647058823 0
+  SELECTION 286.11764705882354 301.1764705882353
+  SELECTION2 286.11764705882354 301.1764705882353
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0
   MASTERPEAKCOL 16576
@@ -496,6 +496,28 @@
         FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-007_an0va -  Saw (lo.wav"
       >
     >
+    <ITEM
+      POSITION 271.05882352939807
+      SNAPOFFS 0
+      LENGTH 45.17646258503402
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B2F4A340-F543-4E37-991E-22CE380E4D7C}
+      IID 308
+      NAME "BGM1_intro-007_an0va -  Saw (lo.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {97D78C48-CDE5-4FCA-A82B-E312AF43B71E}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_intro-007_an0va -  Saw (lo.wav"
+      >
+    >
   >
   <TRACK {D8A95F37-B59A-4C44-BC28-BCBCE42B8B61}
     NAME "BGM1_extended-001_high sine"
@@ -606,6 +628,28 @@
       GUID {88497F77-7D65-48D0-A53F-1E892D208B33}
       <SOURCE WAVE
         FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-001_high sine.wav"
+      >
+    >
+    <ITEM
+      POSITION 271.05882352939807
+      SNAPOFFS 0
+      LENGTH 45.17646258503402
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8563A35A-EFB5-4A7C-B45E-60D12965573A}
+      IID 309
+      NAME "BGM1_intro-001_high sine.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6D7EB92-447F-4635-8A47-AE8981A0A1DC}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_intro-001_high sine.wav"
       >
     >
   >
@@ -1006,6 +1050,28 @@
       GUID {78774DDE-507E-442E-ABA2-296D0D5000D8}
       <SOURCE WAVE
         FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-012_sunvox bell hipass.wav"
+      >
+    >
+    <ITEM
+      POSITION 271.05882352939807
+      SNAPOFFS 0
+      LENGTH 45.17646258503402
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {7424BFF9-C3B5-4FC0-9FB2-74F44CE16331}
+      IID 312
+      NAME "BGM1_intro-012_sunvox bell hipass.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F7A2E7FD-B19A-44C5-B201-2CB4E92244EB}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_intro-012_sunvox bell hipass.wav"
       >
     >
   >
@@ -2351,13 +2417,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0
@@ -2388,7 +2454,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {D7286757-43F6-4C81-BD25-E9BEDAB4EDA4}
       IID 256
       NAME BGM1_extended_mixdown.wav
@@ -2410,7 +2476,7 @@
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
-      SEL 1
+      SEL 0
       IGUID {502E4E0E-8517-4E10-8D64-10498984A8E8}
       IID 253
       NAME BGM1_extended_mixdown.wav
@@ -2421,6 +2487,52 @@
       GUID {4198622C-9AD8-43A7-A95F-985EB08EC9FF}
       <SOURCE WAVE
         FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended_mixdown.wav"
+      >
+    >
+  >
+  <TRACK {047E9947-0E2C-4F0D-80CE-1BD2E480AC4F}
+    NAME "main menu loop unedited"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {047E9947-0E2C-4F0D-80CE-1BD2E480AC4F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 286.11764705882354
+      SNAPOFFS 0
+      LENGTH 15.05882352941177
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3B328C8A-1F8C-43CB-8F81-18818C96D16D}
+      IID 317
+      NAME "main menu loop unedited.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 15.05882352941177
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A52040FD-C9A0-4E35-A2EA-B29F29957E31}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\main menu loop unedited.wav"
       >
     >
   >

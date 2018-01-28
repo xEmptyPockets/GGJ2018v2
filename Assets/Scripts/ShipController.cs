@@ -191,7 +191,7 @@ public class ShipController : MonoBehaviour {
         this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
         Debug.Log("Ver ded");
         yield return new WaitForSeconds(2f);
-        Application.LoadLevel(0);
+        Application.LoadLevel(2);
         //SceneManager.LoadScene(SceneManager.GetActiveScene().ToString());
     }
 

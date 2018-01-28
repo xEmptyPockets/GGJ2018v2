@@ -99,7 +99,6 @@ public class ShipController : MonoBehaviour {
 	    if(Input.GetButtonDown("Jump"))
         {
             StartCoroutine("eBrake");
-            sfx.PlaySoundEffect("Explosion");
         }
 
         // dummy code for testing steering
@@ -119,8 +118,9 @@ public class ShipController : MonoBehaviour {
 
     void damage(float damage)
     {
+        sfx.PlaySoundEffect("Explosion");
 
-        if(shieldActive)
+        if (shieldActive)
         {
             hull -= (damage - shieldAbsorb);
         }

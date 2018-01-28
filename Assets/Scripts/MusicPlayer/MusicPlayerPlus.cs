@@ -25,7 +25,7 @@ using System.Collections;
             when unchecked, MusicPlayer does not start until the StartMusic() function is explicitly called by something.
 */
 
-[RequireComponent(typeof(AudioSource))]
+//[RequireComponent(typeof(AudioSource))]
 public class MusicPlayerPlus : MonoBehaviour {
 
     public float Volume = 1.0F;

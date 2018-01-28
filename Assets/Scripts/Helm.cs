@@ -8,7 +8,7 @@ public class Helm:MonoBehaviour
     public int nearZero;
     public int wheelNearZero;
 
-    private GameObject ship;
+    public GameObject ship;
     private Vector3 initialMousePos;
     private Text speedometer;
     private GameObject helm;

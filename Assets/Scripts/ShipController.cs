@@ -90,10 +90,10 @@ public class ShipController : MonoBehaviour {
         }
 
         // dummy code for testing steering
-        shipTransform.Rotate(0, 0, -Input.GetAxis("Horizontal"));
+        //shipTransform.Rotate(0, 0, -Input.GetAxis("Horizontal"));
 
         //dummy code for testing throttle
-        throttle = Input.GetAxis("Vertical");
+        //throttle = Input.GetAxis("Vertical");
 	}
 
     private void OnCollisionEnter2D(Collision2D collision)

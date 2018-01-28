@@ -371,7 +371,7 @@ MonoBehaviour:
   nearZero: 2
   wheelNearZero: 35
   wheelSensitivity: 0.5
-  pigeonDropDistance: 10
+  pigeonDropDistance: 60
   ship: {fileID: 0}
 --- !u!4 &589586138
 Transform:
@@ -732,11 +732,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4595182235329598, guid: 0ffb96c838e0da34c8b32cdd3c027514, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -246
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 4595182235329598, guid: 0ffb96c838e0da34c8b32cdd3c027514, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 25
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 4595182235329598, guid: 0ffb96c838e0da34c8b32cdd3c027514, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1082,7 +1082,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1201
-  field of view: 150
+  field of view: 130
   orthographic: 0
   orthographic size: 5
   m_Depth: -1

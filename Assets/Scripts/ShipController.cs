@@ -80,9 +80,9 @@ public class ShipController : MonoBehaviour {
     void FixedUpdate()
     {
         rb.AddForce(transform.up * thrust * throttle);
-        Debug.Log("About to set animation bool: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
+        //Debug.Log("About to set animation bool: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
         anim.SetBool("Flappin", !(throttle == 0));
-        Debug.Log("animation bool set: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
+        //Debug.Log("animation bool set: " + gameObject.GetComponent<SpriteRenderer>().sprite.name);
     }
 
     void Update ()
@@ -121,7 +121,7 @@ public class ShipController : MonoBehaviour {
         }
         if(hull <= 0)
         {
-            Debug.Log("Ded");
+            //Debug.Log("Ded");
             // Some game over stuff
         }
 

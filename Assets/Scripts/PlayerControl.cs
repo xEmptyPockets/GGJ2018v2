@@ -15,8 +15,6 @@ public class PlayerControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         mousePos = c.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -c.transform.position.z));
-        Debug.Log(Input.mousePosition);
-        Debug.Log(mousePos);
         transform.LookAt(mousePos);
         //transform.localEulerAngles = new Vector3(0, transform.localEulerAngles.y, transform.localEulerAngles.z);
 

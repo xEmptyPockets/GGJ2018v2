@@ -19,10 +19,12 @@ public class Helm:MonoBehaviour
     private Text speedometer;
     private GameObject helm;
     private GameObject destination;
+    private GameObject playspace;
 
     public void Awake()
     {
         ship = GameObject.Find("Federico");
+        playspace = GameObject.FindWithTag("PlaySpace");
         //speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
         //helm = GameObject.Find("HelmPanel");
     }
@@ -110,7 +112,7 @@ public class Helm:MonoBehaviour
             }
 
             //Spawn the planet and asteroids for the next round
-            GetComponent<PlaySpace_Controller>().Next_Round();
+            playspace.GetComponent<PlaySpace_Controller>().Next_Round();
             
 
             Debug.Log("Mail Delivered!");

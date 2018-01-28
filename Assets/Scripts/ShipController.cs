@@ -33,6 +33,9 @@ public class ShipController : MonoBehaviour {
     public Transform shipTransform;
 
     private Rigidbody2D rb;
+
+    private GameObject sfxObj;
+    private SfxPlayer sfx;
     /*
     private GameObject statScrOverlayEBrake;
     private GameObject statScrOverlayHelm;
@@ -46,6 +49,10 @@ public class ShipController : MonoBehaviour {
     {
         //Debug.Log(gameObject.GetComponent<SpriteRenderer>().sprite.name);
         anim = GetComponent<Animator>();
+        sfxObj = GameObject.Find("SfxPlayer");
+        sfx = sfxObj.GetComponent<SfxPlayer>();
+        Debug.Log("SFX: " + sfx);
+
        // Debug.Log(gameObject.GetComponent<SpriteRenderer>().sprite.name);
     }
 
@@ -87,10 +94,12 @@ public class ShipController : MonoBehaviour {
 
     void Update ()
     {
+
         // dummy code for testing eBrake
-	    if(Input.GetButton("Jump"))
+	    if(Input.GetButtonDown("Jump"))
         {
             StartCoroutine("eBrake");
+            sfx.PlaySoundEffect("Explosion");
         }
 
         // dummy code for testing steering

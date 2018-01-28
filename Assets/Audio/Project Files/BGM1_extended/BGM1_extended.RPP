@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.70/x64" 1517125363
+<REAPER_PROJECT 0.1 "5.70/x64" 1517165193
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,13 +14,13 @@
   TIMEMODE 1 5 -1 30 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
-  ZOOM 3.27605841162942 0 0
+  CURSOR 2.82352941176471
+  ZOOM 4.61122669046453 0 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -28,10 +28,10 @@
   >
   <APPLYFX_CFG
   >
-  RENDER_FILE "C:\users\vincent\Desktop\BGM1_extended_wip.mp3"
+  RENDER_FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\BGM1_extver_loop.ogg"
   RENDER_FMT 0 2 44100
   RENDER_1X 0
-  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RANGE 2 0 0 16 1000
   RENDER_RESAMPLE 3 0 1
   RENDER_ADDTOPROJ 0
   RENDER_STEMS 0
@@ -43,7 +43,7 @@
   TAKELANE 1
   SAMPLERATE 44100 0 0
   <RENDER_CFG
-    bDNwbUABAAABAAAABQAAAP////8EAAAAQAEAAAAAAAA=
+    dmdnbwAAgD8AgAAAAIAAAAAgAAAAAAEAAA==
   >
   LOCK 1
   <METRONOME 6 2
@@ -56,8 +56,8 @@
   GLOBAL_AUTO -1
   TEMPO 255 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  SELECTION 112.94117647058823 7.52941176470588
+  SELECTION2 112.94117647058823 7.52941176470588
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0
   MASTERPEAKCOL 16576
@@ -65,20 +65,20 @@
   MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
-  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_VOLUME 0.72056191779384 0 -1 -1 1
   MASTER_FX 1
   MASTER_SEL 0
   <MASTERFXLIST
     SHOW 0
     LASTSEL 0
     DOCKED 0
-    BYPASS 0 0 0
+    BYPASS 1 0 0
     <VST "VST: ToTape5 (airwindows)" ToTape564.dll 0 "" 1953461364
       dHRvdO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAGAAAAAEAAAAAABAA
-      YhBYPgAAAACuR2E9c2gRPgAAgD8AAIA/
+      F9lOPgAAAACuR2E9c2gRPgAAgD8AAIA/
       AAAQAAAA
     >
-    FLOATPOS 28 57 608 209
+    FLOATPOS 525 184 608 209
     FXID {34F0825B-B797-47E6-8098-95BC6DC39DD2}
     WAK 0
   >
@@ -90,7 +90,7 @@
     DEFSHAPE 0 -1 -1
   >
   <TEMPOENVEX
-    ACT 1 -1
+    ACT 0 -1
     VIS 1 0 1
     LANEHEIGHT 0 0
     ARM 0
@@ -103,8 +103,8 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    VOLPAN 1.11000357037876 0 -1 -1 1
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 1 1
     BUSCOMP 1 0
@@ -128,7 +128,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -148,7 +148,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -164,11 +164,33 @@
       CHANMODE 0
       GUID {B0B3735C-4107-4806-BDF9-687AFA2725F3}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-011_sunvox slow pwm.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-011_sunvox slow pwm.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {ADC988A5-2102-4F0B-A5FB-18D1757FA07F}
+      IID 233
+      NAME "BGM1_extended-011_sunvox slow pwm.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1BE30E4A-4D38-4EB6-83A8-3590136A2688}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-011_sunvox slow pwm.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -177,38 +199,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {04855095-C294-4FF9-AE6D-887DDBACF759}
-      IID 55
+      IGUID {F04E3025-FEC6-48E1-B899-D6D20C5E9C50}
+      IID 198
       NAME "BGM1_extended-011_sunvox slow pwm.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {87AFBFBC-EA46-420B-9ACD-5984991E55FF}
+      GUID {A6CDE5A2-E6E1-4962-A88F-B68E50A890B1}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-011_sunvox slow pwm.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-011_sunvox slow pwm.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {1EB40977-34A7-419D-AE09-43EB13A1E21F}
-      IID 37
+      IGUID {85D7AAED-5636-4EDB-98BE-CC791F3DFBC8}
+      IID 215
       NAME "BGM1_extended-011_sunvox slow pwm.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {F4834264-1D91-4163-83B1-DAB98BEEDC97}
+      GUID {45FD812F-ED5E-44AF-82A7-85718A9BE00E}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-011_sunvox slow pwm.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-011_sunvox slow pwm.wav"
       >
     >
   >
@@ -218,7 +240,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 2 -1
     BUSCOMP 0 0
@@ -238,7 +260,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -254,11 +276,33 @@
       CHANMODE 0
       GUID {44506F16-5FEB-4A54-9502-0654A2A02364}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-016_Tholen5.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-016_Tholen5.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {86F430A8-88E5-4616-A1B8-FBB7D7739CC3}
+      IID 234
+      NAME BGM1_extended-016_Tholen5.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DCD3AFB6-DEA4-457D-B6B4-514547FDDD65}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-016_Tholen5.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -267,38 +311,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {0EA2F229-6687-40C4-82F2-DF77D9C8734C}
-      IID 56
+      IGUID {A6858DF4-8FDC-4763-84B8-6E7EC9B7856D}
+      IID 199
       NAME BGM1_extended-016_Tholen5.wav
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {43C7D5C6-17C7-4210-9E7A-996BE359F4BC}
+      GUID {0B9EAADA-EF0C-4A47-B1A1-723493C9DA6F}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-016_Tholen5.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-016_Tholen5.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {5468D188-2BDD-4E34-9F4B-932CADE3809B}
-      IID 38
+      IGUID {86308D0C-0FB3-4341-91A5-1480DE438986}
+      IID 216
       NAME BGM1_extended-016_Tholen5.wav
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {CE1699E4-18D2-4E3C-B6C6-61A46CD86558}
+      GUID {DA17578E-481C-4322-B44B-A22630F100E9}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-016_Tholen5.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-016_Tholen5.wav"
       >
     >
   >
@@ -308,7 +352,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 1 1
     BUSCOMP 1 0
@@ -332,13 +376,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 1
@@ -357,17 +401,17 @@
       <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
         IQAAAAQAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAEKlrwREplAsjS9oXk88z8AAAAAAAAAQAEIAAAAAAAAAN6BMACa15JAOCYBeWhf
-        8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
+        8D8AAAAAAAAAQAEBAAAAAQAAAADbJTzRTrRAgMNrn8nz8T8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
         AAAQAAAA
       >
-      FLOATPOS 0 0 0 0
+      FLOATPOS 28 57 535 404
       FXID {8D35240F-B49A-44AA-829F-2B31D2B9883C}
       WAK 0
     >
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -383,11 +427,33 @@
       CHANMODE 0
       GUID {3D8B5885-2992-4C1A-8A27-FC67EB715209}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-007_an0va -  Saw (lo.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-007_an0va -  Saw (lo.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {47F014A6-469B-40D7-8FA5-7EFE9E50A9AC}
+      IID 235
+      NAME "BGM1_extended-007_an0va -  Saw (lo.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7472A54-F325-4A65-BDA2-4BF150774193}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-007_an0va -  Saw (lo.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -396,38 +462,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {F9B58788-C8DA-4F91-84D4-14D0568A3E05}
-      IID 57
+      IGUID {19712EFF-F717-43F1-BEAD-4FFE5435BB42}
+      IID 200
       NAME "BGM1_extended-007_an0va -  Saw (lo.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {804A3DCD-FD86-433C-8BE8-8D996E655FD2}
+      GUID {32B0EFBF-6090-454E-AEC1-098FD17DF385}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-007_an0va -  Saw (lo.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-007_an0va -  Saw (lo.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17645191409895
+      LENGTH 30.11762838468719
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {0686974F-E29D-4453-8596-3D703969CE54}
-      IID 39
+      IGUID {EE4F80CE-A521-485E-9154-934C96FB7F4E}
+      IID 217
       NAME "BGM1_extended-007_an0va -  Saw (lo.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {9C1A52A5-835A-47CA-B2B4-2576784D4A2E}
+      GUID {6EFDDE46-6034-4BB2-85DD-9B4F001319FB}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-007_an0va -  Saw (lo.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-007_an0va -  Saw (lo.wav"
       >
     >
   >
@@ -437,7 +503,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 2 -1
     BUSCOMP 0 0
@@ -457,7 +523,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -473,11 +539,33 @@
       CHANMODE 0
       GUID {8BF60042-A4EF-4B77-8DFC-7732B7660006}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-001_high sine.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-001_high sine.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D259AFC9-3487-434E-898F-078BFC79D0AA}
+      IID 236
+      NAME "BGM1_extended-001_high sine.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2ED25F2B-EE7A-492D-A682-C6517DFBB102}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-001_high sine.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -486,38 +574,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {4A7E3961-7697-4976-9F5A-CF48399F0EC9}
-      IID 58
+      IGUID {BCE06BAD-5EA4-42E5-911A-0FDA851559F8}
+      IID 201
       NAME "BGM1_extended-001_high sine.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {9010064F-E0BF-406B-AC7A-187ABEFBA698}
+      GUID {FBB11807-3445-45BB-BE63-C8C92FAC8AB5}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-001_high sine.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-001_high sine.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {4B34BB61-C231-4033-AB7E-A45A7FE0A2AD}
-      IID 40
+      IGUID {26B10CD7-D09B-4F73-8236-15A97BF182F8}
+      IID 218
       NAME "BGM1_extended-001_high sine.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {CF2A7ACA-5B2A-47C4-A4F9-B0AEA7EF0CBF}
+      GUID {88497F77-7D65-48D0-A53F-1E892D208B33}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-001_high sine.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-001_high sine.wav"
       >
     >
   >
@@ -527,7 +615,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 1 1
     BUSCOMP 1 0
@@ -543,7 +631,7 @@
     TRACKID {0729A21C-152D-4660-B2C7-B57FD2EF8804}
     PERF 0
     MIDIOUT -1
-    MAINSEND 1 0
+    MAINSEND 0 0
     <FXCHAIN
       WNDRECT 28 57 647 392
       SHOW 0
@@ -552,7 +640,7 @@
       BYPASS 0 0 0
       <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
-        IQAAAAQAAAAAAAAAAQAAAIhvS893eD1AgO21oPfGsD4AAAAAAAAAQAEIAAAAAQAAANRKrhkzqGVATdnpYGHM8j8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        IQAAAAQAAAAAAAAAAQAAAIFvS893eD1AgO21oPfGsD4AAAAAAAAAQAEIAAAAAQAAANxKrhkzqGVATdnpYGHM8j8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA8CAABhAQAA
         AAAQAAAA
       >
@@ -567,7 +655,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -587,7 +675,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -603,11 +691,33 @@
       CHANMODE 0
       GUID {E3A42C07-7D40-418B-8E30-A06136175790}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {DF256DEA-9FFF-4AB9-BAC9-164E9095EAD3}
+      IID 237
+      NAME "BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {282B56D8-7269-41D6-86E0-9D06DA2A1B15}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -616,38 +726,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {0DFA3995-6F59-4FA1-B399-2B084D1CDE05}
-      IID 59
+      IGUID {56A7A276-DA9F-4E83-82F3-0ABB57F31A34}
+      IID 202
       NAME "BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {0C724CFC-2187-4DCF-918C-61B2FB3F1D12}
+      GUID {00E1E55A-BDE7-44C6-A2BF-37EA9140EE6E}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17645191409895
+      LENGTH 30.11762838468719
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {0185D864-B9B7-4D31-85E1-CE4ACC9ECC8A}
-      IID 41
+      IGUID {2C6A06B2-0FE5-438C-ACFA-C47D758BCC9B}
+      IID 219
       NAME "BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {62E8FA2E-C939-4644-A7E6-1610F2F67F5B}
+      GUID {62DDF4F2-8985-4A42-A8F3-AD0EBD318AE6}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-002_an0va -  NL 1.5 - Low Squ.wav"
       >
     >
   >
@@ -657,7 +767,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 2 -1
     BUSCOMP 0 0
@@ -677,7 +787,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -693,11 +803,33 @@
       CHANMODE 0
       GUID {6AFFF97C-51D2-4932-8C70-247ED04FE5F8}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1C957ACB-6456-44A0-92A3-39BF527B969B}
+      IID 238
+      NAME "BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D3D37ECE-42DB-4130-81A7-E417DC20F8A9}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -706,38 +838,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {3A89586B-2D42-4338-9653-C658FFB757B5}
-      IID 60
+      IGUID {CDE55DAE-1720-4B24-B61C-23C14BB636AA}
+      IID 203
       NAME "BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {37E8FF3E-6957-490F-8B6C-036DC512480F}
+      GUID {7C8BB8AB-2419-40F8-9FAB-AD3773DA79AC}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {72A76F41-2ABB-4F34-81B0-A14BA4DC7342}
-      IID 42
+      IGUID {9D5C6A8D-55B5-4077-9BE6-30CEC5C82634}
+      IID 220
       NAME "BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {BC615B1F-0808-41DC-B7BA-D0D870F3A7C6}
+      GUID {FBD2ADC6-0444-4EC6-8C29-FAF72BC09D6F}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-003_an0va -  NL 1.5 - Low Squ.wav"
       >
     >
   >
@@ -747,7 +879,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 1 1
     BUSCOMP 1 0
@@ -771,7 +903,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -791,7 +923,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -807,11 +939,33 @@
       CHANMODE 0
       GUID {A304CE7B-25BD-4A01-BC49-5ECC7A051B1D}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-012_sunvox bell hipass.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-012_sunvox bell hipass.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F6A99F83-7576-4B67-9219-BE9DCBB02447}
+      IID 239
+      NAME "BGM1_extended-012_sunvox bell hipass.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CCA9F74D-AAB6-41CC-A50F-2317C45C6258}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-012_sunvox bell hipass.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -820,38 +974,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {4D5AB327-0E71-479D-9173-E846AF73DCFD}
-      IID 61
+      IGUID {0D2A1C4E-7E10-48BE-ABE4-1B8A8ED04517}
+      IID 204
       NAME "BGM1_extended-012_sunvox bell hipass.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {14A86D7D-1141-4710-959B-BCE7B50F4592}
+      GUID {4471355A-38B1-4480-91A2-E7BA7225C03F}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-012_sunvox bell hipass.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-012_sunvox bell hipass.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {221586B3-3723-479D-8357-8A01267F23B1}
-      IID 43
+      IGUID {B2BD9A71-CC06-4725-A2B3-8521652F6E3E}
+      IID 221
       NAME "BGM1_extended-012_sunvox bell hipass.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {78E6F020-CB8B-48B0-BA83-B0FDA5CADF36}
+      GUID {78774DDE-507E-442E-ABA2-296D0D5000D8}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-012_sunvox bell hipass.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-012_sunvox bell hipass.wav"
       >
     >
   >
@@ -861,7 +1015,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -881,7 +1035,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -897,11 +1051,33 @@
       CHANMODE 0
       GUID {1CCC516C-3268-4E72-A205-7E9EF6FBAA32}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-017_pulse25ish.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-017_pulse25ish.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {05F8926C-5A10-4457-A2E3-22EABE52B73E}
+      IID 240
+      NAME BGM1_extended-017_pulse25ish.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {03968658-23D2-4DF0-9FD8-D9F2C4955DAD}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-017_pulse25ish.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -910,38 +1086,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {3307B3B5-18B2-4F3C-9D52-3DDB68183CF3}
-      IID 62
+      IGUID {B1362ADE-6961-4DA7-AAEB-79FBB95776B2}
+      IID 205
       NAME BGM1_extended-017_pulse25ish.wav
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {159A732A-160B-4615-AFC4-E5CF0D213BAF}
+      GUID {F15E1F09-407A-4DF4-86F2-5F0847C31829}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-017_pulse25ish.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-017_pulse25ish.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {1F1FF4F2-73B4-4168-9806-770E8CAEC0DF}
-      IID 44
+      IGUID {BB3240D0-54D0-410A-AE60-2E9F7A96C6FF}
+      IID 222
       NAME BGM1_extended-017_pulse25ish.wav
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {8ED15CCB-7ED2-42C1-AAE5-AD1094468DE7}
+      GUID {87E5C98A-DEAE-4CEA-9C26-723A3BBD0B3A}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-017_pulse25ish.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-017_pulse25ish.wav"
       >
     >
   >
@@ -951,7 +1127,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -967,31 +1143,31 @@
     TRACKID {8650F50E-2A59-4F51-85F7-7E3823D52D1A}
     PERF 0
     MIDIOUT -1
-    MAINSEND 1 0
+    MAINSEND 0 0
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {7439C99C-6363-4C3D-9B00-B1013718E303}
-      IID 15
-      NAME BGM1_extended-015_finger_cymbal-hi.wav
+      IGUID {A00F32AB-669E-4252-8E24-B9ADFC0725B3}
+      IID 126
+      NAME BGM1_extended-015_finger_cymbal-hi-glued.wav
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {38CEDA48-D06D-47EE-9FE6-0AD339F51D80}
+      GUID {1CC24AAA-79C2-46AB-A509-E9B443B1B1E0}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-015_finger_cymbal-hi.wav"
+        FILE "BGM1_extended-015_finger_cymbal-hi-glued.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.4117647059029
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1000,38 +1176,60 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {708CCDFF-4E59-4F88-9610-AD36493CE108}
-      IID 63
+      IGUID {4CC96AD7-7C88-40D7-ADF8-5FB3C6C695C9}
+      IID 116
       NAME BGM1_extended-015_finger_cymbal-hi.wav
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117648
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {8C0C3F8B-20C1-428D-A6BE-5BFEDB589A11}
+      GUID {5E1BCEF0-EA5C-4A94-8061-8B41230559E7}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-015_finger_cymbal-hi.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-015_finger_cymbal-hi.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 114.82352941176471
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 105.41176470588236
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {1270C584-2C60-43B9-B7B5-30E3B08A58D9}
-      IID 45
+      IGUID {5581D942-08C9-4DA2-A5A7-E03E373C1AB2}
+      IID 116
       NAME BGM1_extended-015_finger_cymbal-hi.wav
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 113.88235294117648
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {28C97F29-C9B9-481E-B04B-8FD66E9A359D}
+      GUID {83E09C75-D805-4B89-98F2-A474C9A3A035}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-015_finger_cymbal-hi.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-015_finger_cymbal-hi.wav"
+      >
+    >
+    <ITEM
+      POSITION 220.23529411764707
+      SNAPOFFS 0
+      LENGTH 30.11765106042414
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E9E627FD-63D6-4217-B610-B31B000D8DB6}
+      IID 223
+      NAME BGM1_extended-015_finger_cymbal-hi.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 219.29411764705884
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C1A6AC2-2DE1-4539-929E-FCE9509CECF1}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-015_finger_cymbal-hi.wav"
       >
     >
   >
@@ -1041,7 +1239,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 2 -1
     BUSCOMP 0 0
@@ -1079,7 +1277,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1095,11 +1293,33 @@
       CHANMODE 0
       GUID {E68065A6-556B-452A-A1C4-C6FDBE3919BB}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-010_bobstrng env.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-010_bobstrng env.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {528211D4-46F2-4C9F-A5F5-628FB9B5B263}
+      IID 242
+      NAME "BGM1_extended-010_bobstrng env.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C5CC65D1-FB0E-495C-B3D0-4468A30FC3A6}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-010_bobstrng env.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1108,38 +1328,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {A31752EC-3CF1-49EB-B654-7FB0C56A828F}
-      IID 64
+      IGUID {AAFC2E6D-943E-489B-8181-F64D897B79C3}
+      IID 206
       NAME "BGM1_extended-010_bobstrng env.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {46CCE22F-E505-4020-A0C3-E533CAB6EA9A}
+      GUID {59F24B07-C98F-451B-9F5E-0451437B6283}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-010_bobstrng env.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-010_bobstrng env.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {57E7C6CB-4E91-4FC3-8284-73301D4E1EF6}
-      IID 46
+      IGUID {05E9BCDD-4F4B-41FC-8D24-5966A98A8C3F}
+      IID 224
       NAME "BGM1_extended-010_bobstrng env.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {9E3E6CEA-54A9-43CB-BB2E-99B5CFFA81C7}
+      GUID {2594ADD1-B3B2-4A41-8423-056B6742568E}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-010_bobstrng env.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-010_bobstrng env.wav"
       >
     >
   >
@@ -1149,7 +1369,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 1 1
     BUSCOMP 1 0
@@ -1165,7 +1385,12 @@
     TRACKID {2A24DA2A-65A4-454D-BE29-78289D87CD9F}
     PERF 0
     MIDIOUT -1
-    MAINSEND 1 0
+    MAINSEND 0 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
   >
   <TRACK {640568FC-553B-4ECA-A6ED-AF54F3D47BB0}
     NAME BGM1_extended-004_BDRUM
@@ -1173,7 +1398,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1193,7 +1418,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1209,11 +1434,33 @@
       CHANMODE 0
       GUID {B4B38242-6763-4BD1-A10C-2EC11FDDE3BC}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-004_BDRUM.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-004_BDRUM.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {1CB5CB6C-8077-4E14-882A-8FC5886D9081}
+      IID 243
+      NAME BGM1_extended-004_BDRUM.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5E820974-DF41-4816-BF98-4037A411C58A}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-004_BDRUM.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1222,38 +1469,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {C3EA9FEB-F29A-493D-8E13-0C8055D73B91}
-      IID 65
+      IGUID {BB9A7BA4-13E9-493E-A532-DE7941C9FA89}
+      IID 207
       NAME BGM1_extended-004_BDRUM.wav
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {D3C3BCB6-9BB4-4BA2-AE7E-B3F08F4A5A57}
+      GUID {B040F0C4-9196-498F-A652-9CBDBA6F4449}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-004_BDRUM.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-004_BDRUM.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {9CF5D419-6550-42E3-88EC-2D67174D3E65}
-      IID 47
+      IGUID {1DA9A6FF-A7E3-478A-A55D-BDEE8B912F77}
+      IID 225
       NAME BGM1_extended-004_BDRUM.wav
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {48B97736-B9EA-46AC-92CF-11EAAA506CA1}
+      GUID {857C66DE-1A85-4454-A3D6-308E9802169B}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-004_BDRUM.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-004_BDRUM.wav"
       >
     >
   >
@@ -1263,7 +1510,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1298,7 +1545,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1314,11 +1561,33 @@
       CHANMODE 0
       GUID {97B74E51-E376-442F-A6D8-03ABD8178238}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-005_SD_Sd 031.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-005_SD_Sd 031.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9B35D87E-FF3C-4CF5-9591-E24C38454B3C}
+      IID 244
+      NAME "BGM1_extended-005_SD_Sd 031.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F5F39067-F81C-40A2-A21E-5C2F7DD84A0E}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-005_SD_Sd 031.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1327,38 +1596,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {1EAC54D6-33CE-4AF9-90A6-4033EE42F6B4}
-      IID 66
+      IGUID {F5BF5AEF-2D75-4750-9878-425AFD7C3933}
+      IID 208
       NAME "BGM1_extended-005_SD_Sd 031.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {D586735C-7315-4788-A4D1-8C43E3B021AB}
+      GUID {296D1D1E-E1B8-411F-A998-2E0481CBF8B8}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-005_SD_Sd 031.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-005_SD_Sd 031.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {27ADE0C5-D5BE-41E9-9EBC-69F26F8F61D0}
-      IID 48
+      IGUID {E318C5DA-09EF-41D5-A38B-97EEF0EB7637}
+      IID 226
       NAME "BGM1_extended-005_SD_Sd 031.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {20525FB3-A1B5-47ED-8258-599AD51D9BFC}
+      GUID {EEC4D2A5-47FD-41BD-9F88-14AC9B60D46F}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-005_SD_Sd 031.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-005_SD_Sd 031.wav"
       >
     >
   >
@@ -1368,7 +1637,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1388,7 +1657,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1404,11 +1673,33 @@
       CHANMODE 0
       GUID {7DB397B5-8CA7-4454-A5D2-A4239E9FA3AD}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-006_Clap.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-006_Clap.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {411DD449-952D-47C4-AC8B-D4FD49BB323B}
+      IID 245
+      NAME BGM1_extended-006_Clap.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1A4475E4-211E-4FA8-89A2-DBB05DA3F1A8}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-006_Clap.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1417,38 +1708,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {9C1827DA-EDC0-46A2-AE23-29A9D954A9BD}
-      IID 67
+      IGUID {17F1C7FC-0141-4C93-8DEA-7EC30E43D1E4}
+      IID 209
       NAME BGM1_extended-006_Clap.wav
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {A00C9196-1D13-44D5-8491-9E44BE504558}
+      GUID {32781617-0F11-4B45-8E44-16DF1CB50EDE}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-006_Clap.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-006_Clap.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {507808EF-EDFD-4AD2-9019-BC405B8B99B7}
-      IID 49
+      IGUID {350770CB-4FDB-4AD3-86C3-B98A46AEB11F}
+      IID 227
       NAME BGM1_extended-006_Clap.wav
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {30324746-4B40-4B8F-8F87-B94239A910FE}
+      GUID {CAACDC96-A9A2-4153-B23C-5FA5F0CA4689}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-006_Clap.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-006_Clap.wav"
       >
     >
   >
@@ -1458,7 +1749,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1478,7 +1769,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1494,11 +1785,33 @@
       CHANMODE 0
       GUID {04306B31-8080-4DA5-8FB7-515FE8C48B65}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-008_Hat Closed.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-008_Hat Closed.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {40011A20-2E71-4E78-A567-EE1950914E83}
+      IID 246
+      NAME "BGM1_extended-008_Hat Closed.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CBB5CDA0-DBAB-4060-BF53-7755340479D0}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-008_Hat Closed.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1507,38 +1820,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {C561BF9B-373A-4EE1-B433-42B1255B9CEF}
-      IID 68
+      IGUID {7A9CE2A8-0EB4-4163-B93E-62C7020D562A}
+      IID 210
       NAME "BGM1_extended-008_Hat Closed.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {2B571176-073E-4C92-9E64-31D056D9D1E6}
+      GUID {3652665F-668D-4F0B-B054-5D9748880F9B}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-008_Hat Closed.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-008_Hat Closed.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {C1160F0C-895A-4D0D-A270-9B70D7EC2ED1}
-      IID 50
+      IGUID {4AB54368-9AC1-4085-B910-F7438F9D1F58}
+      IID 228
       NAME "BGM1_extended-008_Hat Closed.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {1CFDF5D8-26F1-4E18-A0BB-9209AE9B2DBF}
+      GUID {2C06A60D-DB42-405D-AF50-4C5149B96DB6}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-008_Hat Closed.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-008_Hat Closed.wav"
       >
     >
   >
@@ -1548,7 +1861,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1568,7 +1881,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1584,11 +1897,33 @@
       CHANMODE 0
       GUID {52F5B70C-E59F-421A-AFBF-F478A4F34CB7}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-009_Hat Open.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-009_Hat Open.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4654504D-0727-484F-A4A7-A95D196C95DE}
+      IID 247
+      NAME "BGM1_extended-009_Hat Open.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {49464ACB-7754-44AD-8248-ED3850FC42F4}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-009_Hat Open.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1597,38 +1932,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {397F390F-B256-4167-A756-885CAD819EC6}
-      IID 69
+      IGUID {09AC3191-846B-400F-BE20-5558063924B6}
+      IID 211
       NAME "BGM1_extended-009_Hat Open.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {6AA9EE06-968E-41E8-AEF1-FFECF219633D}
+      GUID {25A8AE24-2B15-44CD-9D06-EC0F5BA83B3D}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-009_Hat Open.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-009_Hat Open.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {14DFD004-8D0D-4AD0-A416-999B786F4487}
-      IID 51
+      IGUID {BFEF33E0-487A-4505-8770-2F678906747F}
+      IID 229
       NAME "BGM1_extended-009_Hat Open.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {507C9E56-EE03-43DF-A18D-B4C05EEC4D42}
+      GUID {78E18ABD-D5FD-437E-BC8C-0254DC0EFD48}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-009_Hat Open.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-009_Hat Open.wav"
       >
     >
   >
@@ -1638,7 +1973,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1658,7 +1993,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1674,11 +2009,33 @@
       CHANMODE 0
       GUID {2DC05464-2ADE-40D0-B8BD-B5D767483617}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-013_crash11.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-013_crash11.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8C18001C-B88F-4081-92EA-CA071C379FFE}
+      IID 248
+      NAME BGM1_extended-013_crash11.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BC4AEF33-BCA9-402C-98CF-550500F3F737}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-013_crash11.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1687,38 +2044,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {85C06D9B-6900-43E7-8F6A-C1AB84DF7F16}
-      IID 70
+      IGUID {69678824-AAC4-4569-AB01-E893AA475C46}
+      IID 212
       NAME BGM1_extended-013_crash11.wav
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {88ED9DCF-E5E4-4905-B958-B478280DFEB8}
+      GUID {C91BE595-494D-43DA-8A11-1D79626519E7}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-013_crash11.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-013_crash11.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17645191409895
+      LENGTH 30.11762838468719
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {5C24E6FA-9717-45ED-BF59-805E65A0DC4C}
-      IID 52
+      IGUID {BF2FF58B-C35C-426D-8906-65F89DEF6815}
+      IID 230
       NAME BGM1_extended-013_crash11.wav
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {FADF9432-7C03-456E-9050-2AF4BB15FD7A}
+      GUID {3D7D9C60-88BB-467D-A30D-0F74F09E445D}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-013_crash11.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-013_crash11.wav"
       >
     >
   >
@@ -1728,7 +2085,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -1748,7 +2105,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1764,11 +2121,33 @@
       CHANMODE 0
       GUID {B8E2B36B-D8EE-4737-BFE8-467EEEC30A2B}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-014_909ride.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-014_909ride.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E0BC40F2-2DF6-4965-AF9D-37820FDA1E5A}
+      IID 249
+      NAME BGM1_extended-014_909ride.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CF480C1F-77FC-455A-8119-D2B03AA47F8A}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-014_909ride.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1777,38 +2156,38 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {F919C1EC-3BCB-4305-A4E4-107840F0884D}
-      IID 71
+      IGUID {D0018D7E-181F-4C23-87E5-C7FABCBC5ABB}
+      IID 213
       NAME BGM1_extended-014_909ride.wav
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {2AFAFE4B-0561-4BB2-9526-44528A26B0E1}
+      GUID {AD9D4294-1F25-485D-9FFA-7B0ABC7FF42C}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-014_909ride.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-014_909ride.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {C22DD52B-954D-46DC-A80A-660743121DA3}
-      IID 53
+      IGUID {5D8C90E9-A07A-4F80-B64B-BEDDAB1B9073}
+      IID 231
       NAME BGM1_extended-014_909ride.wav
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {2C714966-5E36-45C2-8DA6-4FB0716718EB}
+      GUID {93D168DB-800B-4242-BBDB-670D581F69E6}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-014_909ride.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-014_909ride.wav"
       >
     >
   >
@@ -1818,7 +2197,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 2 -1
     BUSCOMP 0 0
@@ -1838,7 +2217,7 @@
     <ITEM
       POSITION 0.94117647058824
       SNAPOFFS 0
-      LENGTH 98.82352941176471
+      LENGTH 8.47058823529411
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
@@ -1854,11 +2233,33 @@
       CHANMODE 0
       GUID {B994E482-B88B-445E-B468-F6A010A59D7D}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-018_sunvox saw wkkkkk.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-018_sunvox saw wkkkkk.wav"
       >
     >
     <ITEM
-      POSITION 99.76470588235294
+      POSITION 9.41176470588235
+      SNAPOFFS 0
+      LENGTH 105.41176470588235
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6AC3A8D5-3AC1-400B-8F22-103501AF9EA2}
+      IID 250
+      NAME "BGM1_extended-018_sunvox saw wkkkkk.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.47058823529411
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {01B91544-71BE-4EBD-BCA6-1DF7F991B87F}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-018_sunvox saw wkkkkk.wav"
+      >
+    >
+    <ITEM
+      POSITION 114.82352941176471
       SNAPOFFS 0
       LENGTH 105.41176470588236
       LOOP 1
@@ -1867,38 +2268,148 @@
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {03C767E1-232A-482C-8A23-257FA3992C17}
-      IID 72
+      IGUID {5048F531-C814-4CFE-81D8-10E38294D5AD}
+      IID 214
       NAME "BGM1_extended-018_sunvox saw wkkkkk.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 98.82352941176471
+      SOFFS 113.88235294117646
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {9FDC495F-259B-4675-9858-C33DCB52B14F}
+      GUID {24A9F3DA-AD61-40E3-81F0-9C71BEBF9552}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-018_sunvox saw wkkkkk.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-018_sunvox saw wkkkkk.wav"
       >
     >
     <ITEM
-      POSITION 205.1764705882353
+      POSITION 220.23529411764707
       SNAPOFFS 0
-      LENGTH 45.17647458983592
+      LENGTH 30.11765106042417
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0
       FADEOUT 1 0 0 1 0 0
       MUTE 0
       SEL 0
-      IGUID {CEE2B2B4-E13F-41FC-B89C-5D0FCF51A27B}
-      IID 54
+      IGUID {E1D756E1-94E3-4BE2-AC8C-7A084FE2C9F4}
+      IID 232
       NAME "BGM1_extended-018_sunvox saw wkkkkk.wav"
       VOLPAN 1 0 1 -1
-      SOFFS 204.23529411764707
+      SOFFS 219.29411764705884
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {3204395C-C47C-4B90-87A5-E5A046F91A03}
+      GUID {F30A31C6-A747-4E2F-94BA-681B1B7AB280}
       <SOURCE WAVE
-        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Samples\BGM1_extended-018_sunvox saw wkkkkk.wav"
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended-018_sunvox saw wkkkkk.wav"
+      >
+    >
+  >
+  <TRACK {B4F85D04-96B8-4A04-BD22-1B3C547DE37C}
+    NAME "ToTape Bass+Drums"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1.17557512663634 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B4F85D04-96B8-4A04-BD22-1B3C547DE37C}
+    PERF 0
+    AUXRECV 6 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 12 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 14 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 28 57 647 392
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ToTape5 (airwindows)" ToTape564.dll 0 "" 1953461364
+        dHRvdO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAGAAAAAEAAAAAABAA
+        1XhpPgAAAAD+1Hg+zczMPQAAgD8AAIA/
+        AAAQAAAA
+      >
+      FLOATPOS 796 216 608 209
+      FXID {379D2BD4-D827-481A-9A13-1842AE640838}
+      WAK 0
+    >
+  >
+  <TRACK {A18ECA9D-FE2C-4830-879B-E66248A5172E}
+    NAME BGM1_extended_mixdown
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A18ECA9D-FE2C-4830-879B-E66248A5172E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 7.52941176470588
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {D7286757-43F6-4C81-BD25-E9BEDAB4EDA4}
+      IID 256
+      NAME BGM1_extended_mixdown.wav
+      VOLPAN 1 0 1.193584 -1
+      SOFFS 1.88235294117647
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F74A7785-1A89-47C3-B069-9026C4AA9FCA}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended_mixdown.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.52941176470588
+      SNAPOFFS 0
+      LENGTH 105.41176470588236
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {502E4E0E-8517-4E10-8D64-10498984A8E8}
+      IID 253
+      NAME BGM1_extended_mixdown.wav
+      VOLPAN 1 0 1.193584 -1
+      SOFFS 114.82352941176471
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4198622C-9AD8-43A7-A95F-985EB08EC9FF}
+      <SOURCE WAVE
+        FILE "Z:\home\vincent\projects\GGJ2018v2\Assets\Audio\Raw_Stems\BGM1_extended_mixdown.wav"
       >
     >
   >

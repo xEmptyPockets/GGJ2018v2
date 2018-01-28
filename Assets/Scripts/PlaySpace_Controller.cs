@@ -40,8 +40,8 @@ public class PlaySpace_Controller : MonoBehaviour {
         for (int i = 0; i < 1; i++){
             destination_scale = destination.transform.localScale.x;
 
-            x_pos = (int)(Random.Range(-1.0f, 1.0f) * (1920 - destination_scale)/2); //Round up
-            y_pos = (int)(Random.Range(-1.0f, 1.0f) * (1080 - destination_scale)/2); //Round up
+            x_pos = (int)(Random.Range(-1.0f, 1.0f) * (1920 - (destination_scale*destination.GetComponent<CircleCollider2D>().radius*2))/2);
+            y_pos = (int)(Random.Range(-1.0f, 1.0f) * (1080 - (destination_scale*destination.GetComponent<CircleCollider2D>().radius*2))/2);
 
             if (Physics2D.OverlapCircle(new Vector2(x_pos, y_pos), destination_scale/2) == null){
                 Instantiate(destination, new Vector3(x_pos, y_pos, 0), Quaternion.identity);
@@ -70,8 +70,8 @@ public class PlaySpace_Controller : MonoBehaviour {
             asteroid_speed_x = Random.Range(-(asteroid_max_speed_coefficient*round_num), asteroid_max_speed_coefficient*round_num);
             asteroid_speed_y = Random.Range(-(asteroid_max_speed_coefficient*round_num), asteroid_max_speed_coefficient*round_num);
 
-            x_pos = (int)(Random.Range(-1.0f, 1.0f) * (1920 - asteroid_scale*asteroid.transform.localScale.x) /2); //Round up
-            y_pos = (int)(Random.Range(-1.0f, 1.0f) * (1080 - asteroid_scale*asteroid.transform.localScale.y) /2); //Round up
+            x_pos = (int)(Random.Range(-1.0f, 1.0f) * (1920 - (asteroid_scale*asteroid.transform.localScale.x*asteroid.GetComponent<CircleCollider2D>().radius*2))/2);
+            y_pos = (int)(Random.Range(-1.0f, 1.0f) * (1080 - (asteroid_scale*asteroid.transform.localScale.y*asteroid.GetComponent<CircleCollider2D>().radius*2))/2);
 
             if (Physics2D.OverlapCircle(new Vector2(x_pos, y_pos), (asteroid_scale*asteroid.transform.localScale.x)/2) == null){
                 new_asteroid = Instantiate(asteroid, new Vector3(x_pos, y_pos, 0), Quaternion.identity);

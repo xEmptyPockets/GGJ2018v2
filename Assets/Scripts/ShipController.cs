@@ -12,13 +12,13 @@ public class ShipController : MonoBehaviour {
     public float shieldAbsorb;
 
     // Whether or not these stations are currently disabled
-    public bool helmStationActive;
+    /*public bool helmStationActive;
     public bool navStationActive;
     public bool statusStationActive;
     public bool airlockStationActive;
     public bool manualStationActive;
     public bool eBrakeStationActive;
-    public bool shieldStationActive;
+    public bool shieldStationActive;*/
 
     // Whether or not the ship's shield is currently active
     public bool shieldActive;
@@ -29,19 +29,19 @@ public class ShipController : MonoBehaviour {
     public Transform shipTransform;
 
     private Rigidbody2D rb;
-    private GameObject statScrOverlayEBrake;
+    /*private GameObject statScrOverlayEBrake;
     private GameObject statScrOverlayHelm;
     private GameObject statScrOverlayNav;
     private GameObject statScrOverlayManual;
     private GameObject statScrOverlayAirlock;
-    private GameObject statScrOverlayShields;
+    private GameObject statScrOverlayShields;*/
 
     void Start ()
     {
         rb = GetComponent<Rigidbody2D>();
         shipTransform = this.transform;
 
-        statScrOverlayEBrake = GameObject.Find("StatScrOverlayEBrake");
+        /*statScrOverlayEBrake = GameObject.Find("StatScrOverlayEBrake");
         statScrOverlayHelm = GameObject.Find("StatScrOverlayHelm");
         statScrOverlayNav = GameObject.Find("StatScrOverlayNav");
         statScrOverlayManual = GameObject.Find("StatScrOverlayManual");
@@ -53,10 +53,10 @@ public class ShipController : MonoBehaviour {
         statScrOverlayNav.SetActive(false);
         statScrOverlayManual.SetActive(false);
         statScrOverlayAirlock.SetActive(false);
-        statScrOverlayShields.SetActive(false);
+        statScrOverlayShields.SetActive(false);*/
 
-        GameObject statusPanel = GameObject.Find("StatusPanel");
-        statusPanel.SetActive(false);
+        //GameObject statusPanel = GameObject.Find("StatusPanel");
+        //statusPanel.SetActive(false);
     }
 
     void FixedUpdate()
@@ -105,7 +105,7 @@ public class ShipController : MonoBehaviour {
         }
 
         //Damages random system based on randomNum
-        int randomNum = Random.Range(0, 5);
+        /*int randomNum = Random.Range(0, 5);
         switch(randomNum)
         {
             case 0:
@@ -134,7 +134,7 @@ public class ShipController : MonoBehaviour {
                 break;
             default:
                 break;
-        }
+        }*/
     }
 
     IEnumerator eBrake()

@@ -59,7 +59,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 677f12dd07608f24cbfb351bcb7f3993, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -111,6 +111,8 @@ MonoBehaviour:
   hull: 0
   shieldAbsorb: 0
   anim: {fileID: 0}
+  throttleLoop: {fileID: 0}
+  islooping: 0
   shieldActive: 0
   thrust: 0.1
   shipTransform: {fileID: 4542891266882878}

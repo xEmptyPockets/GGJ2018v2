@@ -15,7 +15,7 @@ public class SfxPlayer : MonoBehaviour {
     public float Volume = 1.0f;
     public AudioClip[] soundEffects;
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
     private Dictionary<string, AudioClip> soundEffectsDict;
 
     // Use this for initialization

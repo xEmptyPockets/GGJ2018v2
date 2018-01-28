@@ -22,7 +22,7 @@ public class PlaySpace_Controller : MonoBehaviour {
 	void Update () {
     }
 
-    void Next_Round(){
+    public void Next_Round(){
         //Increments the round number, then calls the destination generator, then calls the asteroid generator
         round_num++;
         Generate_Destination();

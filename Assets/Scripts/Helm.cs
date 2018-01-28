@@ -23,7 +23,6 @@ public class Helm:MonoBehaviour
     public void Awake()
     {
         ship = GameObject.Find("Federico");
-        destination = GameObject.Find("Destination");
         //speedometer = GameObject.Find("Speedometer").GetComponent<Text>();
         //helm = GameObject.Find("HelmPanel");
     }
@@ -97,8 +96,23 @@ public class Helm:MonoBehaviour
 
     public void PigeonDrop()
     {
-        if((ship.transform.position - destination.transform.position).magnitude < pigeonDropDistance)
+        destination = GameObject.FindWithTag("Destination");
+        if ((ship.transform.position - destination.transform.position).magnitude < pigeonDropDistance)
         {
+            //Untag the current planet so that when the new planet spawns, we point to it instead
+            destination.tag = "Untagged";
+
+            //Flags the current destination and all asteroids for deletion
+            destination.GetComponent<Destroyer>().destroy_offscreen = true;
+            GameObject[] asteroids = GameObject.FindGameObjectsWithTag("Asteroid");
+            foreach (GameObject asteroid in asteroids){
+                asteroid.GetComponent<Destroyer>().destroy_offscreen = true;
+            }
+
+            //Spawn the planet and asteroids for the next round
+            GetComponent<PlaySpace_Controller>().Next_Round();
+            
+
             Debug.Log("Mail Delivered!");
         }
         else

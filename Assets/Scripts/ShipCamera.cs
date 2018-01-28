@@ -9,7 +9,7 @@ public class ShipCamera : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        ship = GameObject.Find("Ship").transform;
+        ship = GameObject.Find("Federico").transform;
 		
 	}
 	

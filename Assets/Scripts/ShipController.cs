@@ -11,7 +11,10 @@ public class ShipController : MonoBehaviour {
     // How much damage the shield will absorb on impact;
     public float shieldAbsorb;
 
+    public Animator anim;
+
     // Whether or not these stations are currently disabled
+    /*
     public bool helmStationActive;
     public bool navStationActive;
     public bool statusStationActive;
@@ -19,6 +22,7 @@ public class ShipController : MonoBehaviour {
     public bool manualStationActive;
     public bool eBrakeStationActive;
     public bool shieldStationActive;
+    */
 
     // Whether or not the ship's shield is currently active
     public bool shieldActive;
@@ -29,18 +33,26 @@ public class ShipController : MonoBehaviour {
     public Transform shipTransform;
 
     private Rigidbody2D rb;
+    /*
     private GameObject statScrOverlayEBrake;
     private GameObject statScrOverlayHelm;
     private GameObject statScrOverlayNav;
     private GameObject statScrOverlayManual;
     private GameObject statScrOverlayAirlock;
     private GameObject statScrOverlayShields;
+    */
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void Start ()
     {
         rb = GetComponent<Rigidbody2D>();
         shipTransform = this.transform;
 
+        /*
         statScrOverlayEBrake = GameObject.Find("StatScrOverlayEBrake");
         statScrOverlayHelm = GameObject.Find("StatScrOverlayHelm");
         statScrOverlayNav = GameObject.Find("StatScrOverlayNav");
@@ -48,20 +60,25 @@ public class ShipController : MonoBehaviour {
         statScrOverlayAirlock = GameObject.Find("StatScrOverlayAirlock");
         statScrOverlayShields = GameObject.Find("StatScrOverlayShields");
 
+        
         statScrOverlayEBrake.SetActive(false);
         statScrOverlayHelm.SetActive(false);
         statScrOverlayNav.SetActive(false);
         statScrOverlayManual.SetActive(false);
         statScrOverlayAirlock.SetActive(false);
         statScrOverlayShields.SetActive(false);
+        
 
         GameObject statusPanel = GameObject.Find("StatusPanel");
         statusPanel.SetActive(false);
+        */
     }
 
     void FixedUpdate()
     {
         rb.AddForce(transform.up * thrust * throttle);
+
+        anim.SetBool("Flappin", !(throttle == 0));
     }
 
     void Update ()
@@ -73,10 +90,10 @@ public class ShipController : MonoBehaviour {
         }
 
         // dummy code for testing steering
-        shipTransform.Rotate(0, 0, -Input.GetAxis("Horizontal"));
+        //shipTransform.Rotate(0, 0, -Input.GetAxis("Horizontal"));
 
         //dummy code for testing throttle
-        throttle = Input.GetAxis("Vertical");
+        //throttle = Input.GetAxis("Vertical");
 	}
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -104,6 +121,7 @@ public class ShipController : MonoBehaviour {
             // Some game over stuff
         }
 
+        /*
         //Damages random system based on randomNum
         int randomNum = Random.Range(0, 5);
         switch(randomNum)
@@ -135,6 +153,7 @@ public class ShipController : MonoBehaviour {
             default:
                 break;
         }
+        */
     }
 
     IEnumerator eBrake()

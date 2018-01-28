@@ -27,7 +27,7 @@ public class HelmConsole : MonoBehaviour
             Camera.main.enabled = false;
             helmCamera.enabled = true;
 
-            player.GetComponent<PlayerControl>().is_valid = false;
+            //player.GetComponent<PlayerControl>().is_valid = false;
         }
     }
 
